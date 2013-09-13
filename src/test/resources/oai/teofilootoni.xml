@@ -1,0 +1,7 @@
+<LexML xmlns="http://www.lexml.gov.br/oai_lexml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lexml.gov.br/oai_lexml http://www.lexml.gov.br/esquemas/oai_lexml.xsd">
+    <Item formato="text/html" idPublicador="166" tipo="conteudo">http://sapl.teofilootoni.mg.leg.br/sapl_documentos/norma_juridica/7373_texto_integral</Item>
+    <Item formato="text/html" idPublicador="166" tipo="metadado">http://sapl.teofilootoni.mg.leg.br/consultas/norma_juridica/norma_juridica_mostrar_proc?cod_norma=7373</Item>
+    <DocumentoIndividual>urn:lex:br;minas.gerais;teofilo.otoni:municipal:lei:2012-05-15;6402</DocumentoIndividual>
+    <Epigrafe>Lei nº 6402, de 15 de Maio de 2012</Epigrafe>
+    <Ementa>OBRIGA A REALIZAÇÃO DO TESTE DO CORAÇAOZINHO ( EXAME DE OXIMETRIA DE PULSO) EM TODOS OS RECÉN -NASCIDOS NOS HOSPITAIS DO MUNICÍPIO DE TEÓFILO OTONI.</Ementa>
+</LexML>

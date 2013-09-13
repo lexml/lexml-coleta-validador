@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexml:LexML
+	xsi:schemaLocation='http://www.lexml.gov.br/oai_lexml http://projeto.lexml.gov.br/esquemas/oai_lexml.xsd'
+	xmlns:lexml='http://www.lexml.gov.br/oai_lexml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+
+	<Item formato='text/html' idPublicador='5' tipo='conteudo'>http://contas.tcu.gov.br/portaltextual/MostraDocumento?lnk=%28AC-0399-21/97-2%29%5bnumd%5d%5bB001,B002,B012%5d</Item>
+
+	<DocumentoIndividual>urn:lex:br:tribunal.contas.uniao;camara.2:acordao:1997-06-10;399</DocumentoIndividual>
+
+	<Epigrafe>Ac&#243;rd&#227;o TCU 399/1997</Epigrafe>
+
+	<Ementa>Tomada  de  Contas Especial. BASA. Il&#237;citos em opera&#231;&#245;es  banc&#225;rias.
+Alega&#231;&#245;es  de  defesa  rejeitadas. Recurso  de  reconsidera&#231;&#227;o.  N&#227;o
+cabimento  na  presente  fase processual. Aus&#234;ncia de  fatos  novos.
+Contas irregulares. D&#233;bito.</Ementa>
+
+</lexml:LexML>

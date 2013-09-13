@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<LexML xmlns="http://www.lexml.gov.br/oai_lexml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.lexml.gov.br/oai_lexml http://www.lexml.gov.br/esquemas/oai_lexml.xsd">
+	
+	<Item formato="text/html" idPublicador="18" tipo="metadado">http://www.stf.jus.br/portal/jurisprudencia/listarJurisprudencia.asp?s1=AI-AgR(273657%20.NUME.)&amp;base=baseAcordaos</Item>
+	
+	<Item formato="application/pdf" idPublicador="18" tipo="conteudo">http://www.stf.jus.br/portal/inteiroTeor/obterInteiroTeor.asp?numero=273657&amp;classe=AI-AgR</Item>
+	
+	<DocumentoIndividual>urn:lex:br:supremo.tribunal.federal;turma.1:acordao;ai.agr:2002-02-05;273657</DocumentoIndividual>
+	
+	<Epigrafe>AI 273657 AgR / GO - GOIÁS</Epigrafe>
+	
+	<Ementa> EMENTA: Ao contrário do que menciona o agravante, o acórdão
+		recorrido não apreciou todas as matérias discutidas no RE. Ante a não
+		interposição de embargos de declaração, desatendido restou o requisito
+		do prequestionamento. </Ementa>
+		
+    <Relacionamento idPublicador="18" tipo="revoga">urn:lex:br:supremo.tribunal.federal;turma.1:acordao;ai.agr:2002-02-05;273656</Relacionamento>
+		
+</LexML>
+

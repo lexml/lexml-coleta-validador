@@ -1,0 +1,20 @@
+<LexML xmlns="http://www.lexml.gov.br/oai_lexml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.lexml.gov.br/oai_lexml http://projeto.lexml.gov.br/esquemas/oai_lexml.xsd">
+  <Item formato="text/html" idPublicador="23" tipo="metadado">http://www.tse.gov.br/sadJudSjur/pesquisa/actionBRSSearch.do?configName=SJUT&amp;toc=false&amp;sectionServer=TSE&amp;sectionNameString=avancado&amp;livre=@DOCN=000037322</Item>
+  <Item formato="image/tiff" idPublicador="23" tipo="conteudo">http://www.tse.gov.br/sadJudInteiroTeor/pesquisa/actionGetBinary.do?tribunal=TSE&amp;processoNumero=28453&amp;processoClasse=RESPE_&amp;decisaoData=20091126&amp;decisaoNumero=&amp;noCache=0.5093307001053138</Item>
+  <DocumentoIndividual>urn:lex:br:tribunal.superior.eleitoral;plenario:acordao;earespe:2009-11-26;respe-28453</DocumentoIndividual>
+  <Epigrafe>Acórdão EARESPE de 26/11/2009 (Processo RESPE_ nº 28453)</Epigrafe>
+  <Ementa>
+    <p>EMBARGOS DE DECLARAÇÃO. AGRAVO REGIMENTAL. RECURSO ESPECIAL. CONTRADIÇÃO E OMISSÃO. AUSÊNCIA. CARÁTER
+      PROCRASTINATÓRIO. ART. 275, § 4º, DO CÓDIGO ELEITORAL.</p>
+    <p>1. A contradição a embasar a interposição do recurso integrativo requer a dissonância entre as premissas
+      lançadas na fundamentação desenvolvida no julgamento e a conclusão da parte dispositiva.</p>
+    <p>2. O julgado apenas se apresenta omisso quando, sem analisar as questões colocadas sob apreciação judicial
+      ou mesmo promovendo o necessário debate, deixa, num caso ou no outro, de ministrar a solução reclamada.</p>
+    <p>3. Evidenciado o caráter procrastinatório dos embargos de declaração é de rigor a aplicação do art. 275, §
+      4º, do Código Eleitoral.</p>
+    <p>4. Recurso de embargos não conhecido.</p>
+  </Ementa>
+  <Relacionamento tipo="publicacao.oficial">urn:lex:br:tribunal.superior.eleitoral:publicacao.oficial;diario.justica.eletronico:2010-03-10!pag16</Relacionamento>
+  <Relacionamento tipo="parte.de">urn:lex:br:tribunal.superior.eleitoral:processo;respe:2007-10-25;28453</Relacionamento>
+</LexML>

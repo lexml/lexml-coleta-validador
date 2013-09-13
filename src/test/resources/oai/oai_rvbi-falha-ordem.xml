@@ -1,0 +1,18 @@
+
+<LexML xmlns="http://www.lexml.gov.br/oai_lexml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink/namespace/"
+    xsi:schemaLocation="http://www.lexml.gov.br/oai_lexml oai_lexml.xsd">
+    <Item formato="text/html" idPublicador="44" tipo="metadado">http://www6.senado.gov.br/biblioteca/DetalhaDocumento.action?id=1000040337</Item>
+    <Epigrafe>Proteção internacional dos direitos humanos</Epigrafe>
+    <Indexacao>Direitos Humanos direito Internacional Publico. </Indexacao>
+    <DoutrinaAutor>Abranches, Carlos Alberto Dunshee de</DoutrinaAutor>
+    <DoutrinaTitulo>Proteção internacional dos direitos humanos</DoutrinaTitulo>
+    <DoutrinaForma>Texto</DoutrinaForma>
+    <DoutrinaLingua>Português</DoutrinaLingua>
+    <DocumentoIndividual>urn:lex:br:rede.virtual.bibliotecas:livro:1964;1000040337~texto;pt-br</DocumentoIndividual>
+    <DoutrinaAno>1964</DoutrinaAno>
+    <DoutrinaResponsabilidade>C. A. Dunshee de Abranches. --</DoutrinaResponsabilidade>
+    <DoutrinaClasse>341.12191</DoutrinaClasse>
+    <DoutrinaImprenta>Rio de Janeiro, Freitas Bastos, 1964.</DoutrinaImprenta>
+    <DoutrinaDescricaoFisica>159 p.</DoutrinaDescricaoFisica>
+    <DoutrinaOculto>Direitos Humanos direito Internacional Publico. </DoutrinaOculto>
+</LexML>

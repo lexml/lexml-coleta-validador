@@ -1,0 +1,18 @@
+<lexml:LexML xmlns:lexml="http://www.lexml.gov.br/oai_lexml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.lexml.gov.br/oai_lexml http://projeto.lexml.gov.br/esquemas/oai_lexml.xsd">
+
+	<Item formato="text/html" idPublicador="2" tipo="metadado">http://leis.saocarlos.sp.gov.br?urn:lex::lei:2002;12948</Item>
+
+	<Item formato="application/pdf" idPublicador="2" tipo="conteudo"
+		qtdPaginas="1">http://leis.saocarlos.sp.gov.br/digitalizadas/2002/lei12948-img.pdf</Item>
+
+	<DocumentoIndividual>urn:lex:br;sao.paulo;sao.carlos:municipal:lei:2002-02-14;12948@inicio.vigencia;assinatura;2002-02-14~texto;pt-br</DocumentoIndividual>
+
+	<Epigrafe>LEI N&#186; 12.948 DE 14 DE FEVEREIRO DE 2002</Epigrafe>
+
+	<Ementa>Autoriza o Poder Executivo cancelar d&#233;bito inscrito em
+		d&#237;vida ativa em nome de Airton Garcia Ferreira e d&#225; outras
+		provid&#234;ncias.</Ementa>
+
+</lexml:LexML>

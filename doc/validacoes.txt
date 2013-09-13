@@ -1,0 +1,65 @@
+------------------------------
+Validações executadas
+
+-----
+id_registro_item
+
+- Não pode ser vazio
+
+- Não pode conter espaços em branco
+
+-----
+tx_metadado_xml
+
+- Não pode ser vazio
+
+- Integridade do XML
+
+- Adequação ao XML Schema (http://www.lexml.gov.br/esquemas/oai_lexml.xsd)
+
+- Todas as URNs (em DocumentoIndividual e Relacionamento) devem ser estruturalmente válidas
+
+    - Em letras minúsculas
+
+    - Devem iniciar com "urn:lex:<localidade>:<autoridade>:<tipo-documento>", podendo
+      ser seguida por ":<descritor>".
+
+- A URN do elemento DocumentoIndividual deve ser válida para todos os publicadores (idPublicador)
+  dos elementos Item e dos elementos Relacionamento de acordo com o arquivo de perfil do provedor de dados.
+
+    - Essa verificação é feita da seguinte forma
+
+        1. Obtém-se o <nucleo> da URN que consiste na parte <localidade>:<autoridade>:<tipo-documento>
+
+        2. Se a <autoridade> e o <tipo-documento> contiverem ";" calcula-se o <nucleo-autoridade-reduzida>
+           e o <nucleo-tipo-reduzido> da seguinte forma:
+
+           - O <nucleo-autoridade-reduzida> é formado por <localidade>:<autoridade-reduzida>:<tipo-documento>
+             onde a <autoridade-reduzida> é o prefixo da <autoridade> antes do ";".
+
+           - O <nucleo-tipo-reduzido> é formado por <localidade>:<autoridade>:<tipo-reduzido> onde o <tipo-reduzido>
+             é o prefixo do <tipo-documento> antes do ";".
+
+        3. Se a combinação apresentada no <nucleo> existir com perfil "D" ou "T" para todos os idPublicador
+           então a URN é válida.
+
+        4. Se as combinações no <nucleo-autoridade-reduzida> e no <nucleo-tipo-reduzido> existirem com perfil
+           "D" ou "T" para todos os idPublicador então a URN é válida.
+
+- A URN de cada Relacionamento deve ser válida para o publicador do relacionamento
+  de acordo com o arquivo de perfil do provedor de dados.
+
+    - Essa verificação é feita da seguinte forma
+
+        1. O id do publicador do relacionamento é informado no atributo idPublicador do elemento Relacionamento.
+           Se esse atributo não existir considera-se o id do publicador do primeiro elemento Item.
+
+        2. Obtém-se o <nucleo>, <nucleo-autoridade-reduzida> e <nucleo-tipo-reduzido> da URN do Relacionamento da
+           mesma forma apresentada anteriormente.
+
+        3. Se a combinação apresentada no <nucleo> existir com perfil "R" ou "T" para o id do publicador
+           do relacionamento então a URN é válida.
+
+        4. Se as combinações no <nucleo-autoridade-reduzida> e no <nucleo-tipo-reduzido> existirem com perfil
+           "R" ou "T" para id do publicador do relacionamento então a URN é válida.
+
