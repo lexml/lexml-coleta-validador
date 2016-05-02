@@ -34,19 +34,21 @@ public class ValidadorRegistroItem {
         svc = validadorService;
     }
 
-    /**
+    /*
      * Validação de REGISTRO_ITEM
-     * <p/>
-     * <u>Regras de Validação:</u> *
-     * <li>RV#1: O ID_REGISTRO_ITEM <b>não</b> pode conter espaços em branco</li>
-     * <li>RV#2: O TX_METADADO_XML <b>não</b> pode ser nulo</li>
-     * <li>RV#3: O TX_METADADO_XML <b>deve</b> ser válido segundo o schema/xmlbeans</li>
-     * <li>RV#4: O id do RegistroItem <b>não</b> pode ser vazio</li>
-     * <li>RV#5: A URN de DocumentoIndividual deve ser válida para <b>todos</b> os idPublicador do registro</li>
-     * <li>RV#6: A URN não é válida para DocumentoIndividual de acordo com o perfil, usando o idPublicador de Item</li>
-     * <li>RV#7: A URN não é valida para Relacionamento de acordo com o perfil</li>
-     * <li>RV#8: Se o Relacionamento não possuir idPublicador será considerado o idPublicador do primeiro Item do
-     * registro</li>
+     * 
+     * Regras de Validação:
+     * 
+     * 
+     * RV#1: O ID_REGISTRO_ITEM <b>não</b> pode conter espaços em branco
+     * RV#2: O TX_METADADO_XML <b>não</b> pode ser nulo
+     * RV#3: O TX_METADADO_XML <b>deve</b> ser válido segundo o schema/xmlbeans
+     * RV#4: O id do RegistroItem <b>não</b> pode ser vazio
+     * RV#5: A URN de DocumentoIndividual deve ser válida para <b>todos</b> os idPublicador do registro
+     * RV#6: A URN não é válida para DocumentoIndividual de acordo com o perfil, usando o idPublicador de Item
+     * RV#7: A URN não é valida para Relacionamento de acordo com o perfil
+     * RV#8: Se o Relacionamento não possuir idPublicador será considerado o idPublicador do primeiro Item do
+     * registro
      * 
      * @param idRegistroItem Identificador do registro a ser validado
      * @param xml XML do registro para validação
