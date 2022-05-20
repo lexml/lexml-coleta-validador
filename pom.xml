@@ -96,11 +96,11 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
-			<scope>runtime</scope>
-		</dependency>
+			    <groupId>ch.qos.reload4j</groupId>
+			        <artifactId>reload4j</artifactId>
+				<version>1.2.21</version>
+				<scope>runtime</scope>
+			    </dependency>
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
