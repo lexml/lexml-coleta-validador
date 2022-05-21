@@ -56,7 +56,7 @@
 		<dependency>
 			<groupId>br.gov.lexml</groupId>
 			<artifactId>lexml-xml-schemas</artifactId>
-			<version>3.1.18-SNAPSHOT</version>
+			<version>3.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-collections</groupId>
